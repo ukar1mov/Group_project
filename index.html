@@ -1,112 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./home.css" />
-    <title>Главная</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <h1>This is Главная page</h1>
-     <!-- main start -->
-  <div class="main_box">
 
-    <div class="box_for_arrows"> 
-      <div class="arrow"><img src="./images/icons/arrow_down.svg"></div> 
-      <div class="neftekor_box">
-        <h1 class="neftekor_title">Умная <span class="neftekor_title_color">АЗС НЕФТЕКОР</span></h1>
-        <p class="under_neftekor_title_paragraph">Мы предоставляем АЗС с комплектом разрешительной документации. У нас -->
-          есть решение для любого объема потребления
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./home.css" />
+  <title>Главная</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Start HEADER -->
+  <div class="header">
+    <div class="container">
+      <nav>
+        <div class="nav-bar">
+          <img src="./images/icons/logo.png" alt="logo">
+          <input type="checkbox" name="check" id="check">
+          <label for="check">
+            <i class="fa-solid fa-bars fa-2x" id="btn"></i>
+            <i class="fa-solid fa-xmark" id="cancel" style="color: black;"></i>
+          </label>
+          <div class="wrrap-nav">
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="./diesel/index.html">Дизельное топливо</a></li>
+              <li><a href="./mini/index.html">Мини-АЗС</a></li>
+              <li><a href="./heating/index.html">Печное топливо</a></li>
+              <li><a href="#">Судовое топливо</a></li>
+              <li><a href="#">Блог/a></li>
+              <li><a href="#">Контакты</a></li>
+              <div class="acount">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                <!-- <img src="./images/icons/Vector (2).png" alt=""> -->
+                <li><a href="#">Личный кабинет</a></li>
+              </div>
+            </ul>
+          </div>
+
+          </div>
+          <div class="date">
+            <img src="./images/icons/mail.png" alt="time">
+            <p>info@neftekor.ru</p>
+          </div>
+          <div class="date">
+            <img src="./images/icons/phone.png" alt="time">
+            <p>+7(495)7965383</p>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="title_text">
+        <h1>Поставка нефтепродуктов <span> в Москве и Московской области</span></h1>
+        <p>От 1000 литров и от 46 рублей за литр</p>
+        <button>Заказать звонок</button>
+        <h2>Нефтепродукты</h2>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="left">
+      <div class="text">
+        <h1>Судовое топливо</h1>
+        <p>
+          Мы предоставляем судовое дизельное топливо как для физических лиц,
+          так и компаниям
         </p>
-        <div class="neftekor_box_images">
-          <div class="mini_a3c">
-            <img src="./images/imgs/mini a3c 4500.svg" class="mini_a3c_image">
-            <div class="texts">
-              <h1 class="under_image_title">Мини АЗС на <span class="neftekor_title_color">4500 литров</span></h1>
-              <p class="under_imge_paragraph">Оптимально для потребления от 10 до 15 тысяч литров в месяц</p>
-            </div>
-          </div>
-          <div class="mini_a3c">
-            <img src="./images/imgs/mini a3c 10000.svg" class="mini_a3c_image">
-            <div class="texts">
-              <h1 class="under_image_title">Мини АЗС на <span class="neftekor_title_color">10000 литров</span></h1>
-              <p class="under_imge_paragraph">Оптимально для потребления от 15 до 35 тысяч литров в месяц</p>
-            </div>
-          </div>
-          <div class="mini_a3c">
-            <img src="./images/imgs/mini a3c 20000.svg" class="mini_a3c_image">
-            <div class="texts">
-              <h1 class="under_image_title">Мини АЗС на <span class="neftekor_title_color">20000 литров</span></h1>
-              <p class="under_imge_paragraph">Оптимально для потребления от 35 тысяч литров в месяц</p>
-            </div>
-          </div>
-        </div>
-        <button class="book_mini_a3c">Заказать Мини АЗС</button>
+        <button>Подробнее</button>
       </div>
-      <div class="arrow"><img src="./images/icons/arrow_down.svg"></div>
     </div>
-    <div class="petrol_manufacturers">
-      <div>
-        <h1 class="manufacturers_title"><span class="neftekor_title_color">Производители</span> качественного топлива
-        </h1>
-        <p class="manufacturers_paragraph">С которыми у нас прямые договора. Вы получите топливо без посредников</p>
+    <div class="right">
+      <div class="text">
+        <h1>Судовое топливо</h1>
+        <p>
+          Мы предоставляем судовое дизельное топливо как для физических лиц,
+          так и компаниям
+        </p>
+        <button>Подробнее</button>
       </div>
-      <div class="sponsors_emblems">
-        <div>
-          <img src="./images/icons/tatneft.svg">
-        </div>
-        <div>
-          <img src="./images/icons/rosneft.svg">
-        </div>
-        <div>
-          <img src="./images/icons/gazprom.svg">
-        </div>
-        <div>
-          <img src="./images/icons/lukoyl.svg">
-        </div>
-        <div>
-          <img src="./images/icons/bashneft.svg">
-        </div>
-      </div>
-      <div class="rectangle"></div>
     </div>
-    <div class="geography">
-      <h1 class="geography_title">География <span class="neftekor_title_color">поставок</span></h1>
-      <img src="./images/imgs/map.svg" class="map">
-    </div>
-    <div class="clients">
-      <h1 class="clients_title">Клиенты</h1>
-      <p class="clients_paragraph">Мы поставляем дизельное топливо более 15 лет</p>
-      <div class="clients_images">
-        <div>
-          <img src="./images/icons/client_lom.svg">
-        </div>
-        <div>
-          <img src="./images/icons/client_atlant.svg">
-        </div>
-        <div>
-          <img src="./images/icons/client_22.svg">
-        </div>
-        <div>
-          <img src="./images/icons/client_deka.svg">
-        </div>
-        <div>
-          <img src="./images/icons/client_jitnitsa.svg">
-        </div>
-        <div>
-          <img src="./images/icons/client_moscow.svg">
+  </section>
+  <div class="heating_oil">
+    <div class="heat_left"></div>
+    <div class="het_right">
+      <div class="het_box">
+        <div class="box-text">
+          <h1>Печное топливо</h1>
+          <p>Печное топливо может служить для отопления коммерческой недвижимости и частных домов, строительных
+            площадок,
+            в качестве топлива для небольших котельных и сельхоз организаций.</p>
+          <button>Подробнее</button>
         </div>
       </div>
     </div>
   </div>
-  <!-- main end -->
-  </body>
+  <!-- END HEADER -->
+
+</body>
 </html>
