@@ -1,4 +1,4 @@
-@import "../global.css";
+@import "../global.css"; 
 
 
 
@@ -1494,6 +1494,7 @@ section>div {
 
   .first_box_section {
     width: 340px;
+    height: 900px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
